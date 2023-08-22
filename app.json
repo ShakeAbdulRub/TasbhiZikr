@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TazbhiZikr",
-    "slug": "TazbhiZikr",
+    "name": "TasbhiZikr",
+    "slug": "tasbhizikr",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": ".app/assets/app-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": ".app/assets/app-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shakeabdulrub.TasbhiZikr"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": ".app/assets/app-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d42ad90b-8686-4491-a5d5-15df82f6a083"
+      }
+    },
+    "owner": "shakeabdulrub"
   }
 }
